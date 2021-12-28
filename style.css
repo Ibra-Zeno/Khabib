@@ -1,0 +1,39 @@
+p {
+  color: rgb(255, 209, 204);
+  font-size: 20px;
+}
+
+h1 {
+  text-align: center;
+  background-color: grey;
+  font-family: cursive;
+}
+
+h2 {
+  text-decoration: underline;
+}
+
+body {
+  background-color: rgba(35, 71, 189, 0.671);
+}
+
+.SendLocation {
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+  text-align: center;
+}
+
+.container {
+  height: 50px;
+  position: relative;
+  border: 2px solid green;
+}
+
+footer {
+  text-align: center;
+  font-weight: 700;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
