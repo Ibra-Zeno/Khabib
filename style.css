@@ -20,24 +20,31 @@ body {
   background-color: rgba(35, 71, 189, 0.671);
 }
 
-.SendLocation {
-  margin: 0;
-  position: absolute;
-  left: 400px;
-  top: 50%;
-  -ms-transform: translateY(-50%);
-  transform: translateY(-50%);
-  text-align: center;
-}
-
 .container {
   height: 50px;
   position: relative;
+  width: 200px;
   border: 2px none green;
+  margin: auto auto;
 }
 
 footer {
   text-align: center;
   font-weight: 700;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+figure img {
+  width: auto;
+  margin: 0px auto;
+}
+
+header.SendLocation {
+  width: 400px;
+  margin: 30px auto;
+}
+
+header button {
+  width: 100px;
+  margin: 15px 50px;
 }
