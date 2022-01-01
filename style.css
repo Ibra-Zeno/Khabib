@@ -18,6 +18,8 @@ h2 {
 
 body {
   background-color: rgba(35, 71, 189, 0.671);
+  width: 1500px;
+  margin: 0 auto;
 }
 
 .container {
