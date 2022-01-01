@@ -8,6 +8,8 @@ h1 {
   background-color: grey;
   font-family: cursive;
   text-decoration: blink;
+  position: sticky;
+  top: 2px;
 }
 
 h2 {
