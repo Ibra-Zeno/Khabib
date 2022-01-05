@@ -1,15 +1,25 @@
+* {
+  box-sizing: border-box;
+}
+
 p {
   color: rgb(255, 209, 204);
   font-size: 20px;
 }
 
-h1 {
+header p {
+  position: relative;
+}
+
+header h1 {
   text-align: center;
   background-color: grey;
-  font-family: cursive;
-  text-decoration: blink;
-  position: sticky;
-  top: 2px;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  position: fixed auto;
+  width: 780px;
+  padding: 10px;
+  display: block;
+  margin: 0 auto;
 }
 
 h2 {
@@ -36,17 +46,23 @@ footer {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
-figure img {
-  width: auto;
+figure img,
+figcaption {
+  width: 720px;
+  display: block;
+  margin: 0 auto;
+}
+
+main img {
+  width: 720px;
   margin: 0px auto;
 }
 
-header.SendLocation {
-  width: 400px;
-  margin: 30px auto;
-}
-
-header button {
-  width: 100px;
-  margin: 15px 50px;
+iframe,
+a,
+audio,
+button {
+  display: block;
+  margin: 0 auto;
+  text-align: center;
 }
