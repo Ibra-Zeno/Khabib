@@ -2,18 +2,21 @@
   box-sizing: border-box;
 }
 
-p {
-  color: rgb(255, 209, 204);
+p,
+aside {
+  color: #afa060;
   font-size: 20px;
 }
 
 header p {
   position: relative;
+  background-color: #2a1a1f;
 }
 
 header h1 {
   text-align: center;
-  background-color: grey;
+  background-color: #2a1a1f;
+  color: #afa060;
   font-family: Georgia, "Times New Roman", Times, serif;
   position: fixed auto;
   width: 780px;
@@ -24,10 +27,12 @@ header h1 {
 
 h2 {
   text-decoration: underline;
+  background-color: #ad8350;
+  text-align: center;
 }
 
 body {
-  background-color: rgba(35, 71, 189, 0.671);
+  background-color: #104547;
   width: 1500px;
   margin: 0 auto;
 }
@@ -51,6 +56,7 @@ figcaption {
   width: 720px;
   display: block;
   margin: 0 auto;
+  color: #ad8350;
 }
 
 main img {
@@ -65,4 +71,8 @@ button {
   display: block;
   margin: 0 auto;
   text-align: center;
+}
+
+a {
+  color: #764134;
 }
